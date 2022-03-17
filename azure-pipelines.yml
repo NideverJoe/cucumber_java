@@ -17,7 +17,7 @@ steps:
   displayName: 'Execute Cucumber Tests'
 
 - powershell: |
-   $url = 'https://pulse-7.qtestnet.com/webhook/9a4aecb1-81fa-4785-8ee3-6fbea06aaeb1'
+   $url = 'https://pulse-7.qtestnet.com/webhook/d06bdf36-07af-40c0-b6ef-b5c4e47166fb'
    
    $content = Get-Content "C:\TestAutomation\AzureDevOps\ADOagent\_work\1\s\target\cucumber-report.json" -Raw
    $bytes = [System.Text.Encoding]::ASCII.GetBytes($content)
